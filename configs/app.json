@@ -1,0 +1,28 @@
+{
+  "name": "{{name}}",
+  "appKey": "{{appKey}}",
+  "jssdk": "1.0.0",
+  "version": "1.0.0",
+  "pages": [
+    {
+      "root": "pages/index.vue",
+      "url": "",
+      "degrade": false
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subPackageDemo",
+      "pages": [
+        {
+          "root": "pages/demo.vue",
+          "url": "",
+          "degrade": false
+        }
+      ]
+    }
+  ],
+  "min_android": "7.3.1",
+  "min_ios": "7.3.1",
+  "custom": ""
+}

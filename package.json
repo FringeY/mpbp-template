@@ -1,0 +1,41 @@
+{
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "private": true,
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ext .vue,.js pages --fix"
+  },
+  "keywords": [
+    "mpbp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@mpbp/mpbp-ui": "^1.0.0",
+    "@mpbp/mpbp-api": "^1.0.0",
+    "vue": "^2.5.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.7.1",
+    "less-loader": "^4.1.0",
+    "node-notifier": "^5.1.2",
+    "node-sass": "^4.9.2",
+    "portfinder": "^1.0.13",
+    "sass-loader": "^7.0.3",
+    "stylus-loader": "^3.0.2",
+    "weex-vue-render": "^1.0.17"
+  }
+}
